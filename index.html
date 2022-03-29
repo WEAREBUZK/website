@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="canonical" href="https://wearebuzk.com/">
+	<meta name="robots" content="all">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5">
+	<title>BUZK</title>
+	<meta name="description" content="BUZK is a social media team that helps you by making your social media designs a monthly subscription service.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="https://wearebuzk.com/">
+	<meta name="twitter:title" content="BUZK">
+	<meta name="twitter:description" content="BUZK is a social media team that helps you by making your social media designs a monthly subscription service.">
+	<meta name="twitter:image" content="tobefilled">
+	<meta name="twitter:creator" content="@wearebuzk">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://wearebuzk.com/">
+	<meta property="og:title" content="BUZK">
+	<meta property="og:description" content="BUZK is a social media team that helps you by making your social media designs a monthly subscription service.">
+	<meta property="og:image" content="tobefilled">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<link rel="apple-touch-icon" sizes="180x180" href="tobefilled">
+	<link rel="icon" type="image/png" sizes="32x32" href="tobefilled">
+	<link rel="icon" type="image/png" sizes="16x16" href="tobefilled">
+	<link rel="manifest" href="tobefilled">
+	<meta name="msapplication-TileColor" content="#fff">
+	<meta name="theme-color" content="#fff">
+	<link rel="shortcut icon" href="tobefilled">
+	<link rel="preconnect" crossorigin="crossorigin" href="https://fonts.googleapis.com">
+	<style id="loadingStyles">#loading{width:100%;height:100vh;height:calc(var(--vh, 1vh) * 100);position:fixed;left:0;top:0;z-index:9999;pointer-events:all;background-color:#161211;transition:opacity .5s}#loading.none{pointer-events:none;opacity:0}</style></head>
+
+<body>
+	<div id="scroll-pointer"></div>
+	<main id="main">
+		<div id="loading">
+		</div>
+		<div id="page">
+			<header id="header" class="scroll-section">
+				<div id="bg">
+					<canvas id="gl"></canvas>
+				</div>
+				<div id="header-bg" class="fake-image">
+					<figure class="shape">
+						<img id="photo" src="./assets/img/background.jpg">
+					</figure>
+				</div>
+				<div id="header-content">
+					<img id="header-logo" src="./assets/img/logo.png" alt="VYPO logo"/>
+					<p>Website Under Construction <strong>Will be rolling out soon</strong> Look forward to it <br>from the BUZK team</p>
+				</div>
+				<div id="header-contact">
+					<h5>Contact Us</h5>
+					<a href="mailto:buzksg@gmail.com" target="_blank">buzksg@gmail.com</a>
+					<a href="http://instagram.com/wearebuzk/" target="_blank">@wearebuzk</a>
+				</div>
+			</header>
+		</div>
+	</main>
+	<script type="text/javascript" src="./js/home.js"></script>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/sw.js');
+		}
+	</script>
+</body>
+</html>
